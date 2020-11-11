@@ -22,5 +22,16 @@
   },
   "devDependencies": {
     "es-dev-server": "^1.57.8"
-  }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "trailingComma": "es5",
+    "semi": false,
+    "singleQuote": true
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ]
 }

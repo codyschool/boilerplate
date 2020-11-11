@@ -1,19 +1,19 @@
-import { LitElement, html } from 'lit-element';
+import { LitElement, html } from 'lit-element'
 
 class CodySchoolBoilerplate extends LitElement {
   static get properties() {
     return {
       msg: { type: String },
-    };
+    }
   }
 
   constructor() {
-    super();
+    super()
   }
 
   render() {
-    return html`<div>${this.msg}</div>`;
+    return html`<div>${this.msg}</div>`
   }
 }
 
-customElements.define('codyschool-boilerplate', CodySchoolBoilerplate);
+window.customElements.define('codyschool-boilerplate', CodySchoolBoilerplate)
