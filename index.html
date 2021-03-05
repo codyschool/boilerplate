@@ -2,16 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>CodySchool Boilerplate</title>
+    <link rel="icon" type="image/svg+xml" href="src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit-Element App</title>
+    <style>
+      p {
+        font-size: 1.5rem;
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <codyschool-boilerplate msg="Hello JavaScript"></codyschool-boilerplate>
-      <br>
-      <codyschool-boilerplate msg="Hello LitElement"></codyschool-boilerplate>
-      <br>
-      <codyschool-boilerplate msg="Hello Elm"></codyschool-boilerplate>
-    </div>
-    <script src="index.js" type="module"></script>
+    <codyschool-element>
+      <p>A simple base class for creating fast, lightweight web components</p>
+    </codyschool-element>
+    <script type="module" src="/src/my-element.ts"></script>
   </body>
 </html>
